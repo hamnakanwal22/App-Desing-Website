@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded",() =>{
         autoplaySpeed:3000,
 centeredSlides:true,
 slidesPerView:'auto',
-autoplay:{
+autoplay: {
     delay:5000,
     disableOnInteraction:false
 },

@@ -399,7 +399,7 @@ text-align: right;
     color: var(--black);
 }
 .app-screen{
-padding-top:5.313rem;
+padding-bottom:5.313rem;
 }
 .app-screen .swiper-slide{
     width:230px !important;
