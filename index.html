@@ -1,17 +1,512 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>App Desing Website using bootstrap</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css    ">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App Desing Website using bootstrap</title>
+  <link rel="icon" href="images/logo/favicon.png">
+  <link rel="stylesheet" href="bootstrap/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css    ">
+  <script src="https://kit.fontawesome.com/dac67e62d6.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
+
+<body data-bs-spy="scroll" data-bs-target="#navbarText" data-bs-offset="0" class="navbar-nav" tab-index="0">
+  <!--=====================================Header Section==============================================-->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-sticky">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo/oneshot-white.png" class="img-fluid navbar-brand-regular">
+          <img src="images/logo/oneshot-pink.png" class="img-fluid navbar-brand-sticky">
+
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="ti-align-justify navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mb-2 ms-auto mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link scroll active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" scroll href="#feature">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" scroll href="#screen">Screenshot</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scroll" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link scroll" href="#contacts">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--=====================================home Section==============================================-->
+  <section id="home">
+    <div class="container">
+      <div class="row align-item-center ">
+        <div class="col-sm-12 col-lg-6">
+          <div class="home-text">
+            <h2>Present your app with <span class="text-uppercase">oneshoot</span></h2>
+            <p>App design is the look and feel of a mobile application. This includes all of the visual elements and
+              interactive elements that impact how the app functions. Mobile app design combines two concepts—UI and
+              UX.Modern users don't have patience for apps that are confusing to use. Ideal mobile app design is
+              good-looking, functional, and straightforward all at the same time.App design is a combination of UI and
+              UX design to build out a usable piece of software. </p>
+            <div class="home-download-btn">
+              <a href="#" class="btn mt-4 ntn-bordered"><span class="ti-control-play"></span> Play Store</a>
+              <a href="#" class="btn mt-4 ntn-bordered"><span class="ti-apple"></span> App Store</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-6">
+          <div class="home-img">
+            <img src="images/m.png" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--=====================================Counter Section==============================================-->
+  <section class="section counter_area">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-6 col-sm-3 text-center single_counter">
+          <div class="counter_inner p-3 p-md-0">
+            <div class="counter_item d-inline-block mb-3">
+              <span class="counter fw-bold" id="count1">10</span>
+              <span class="fw-bold">M</span>
+            </div>
+            <h5>Users</h5>
+          </div>
+        </div>
+        <div class="col-6 col-sm-3 text-center single_counter">
+          <div class="counter_inner p-3 p-md-0">
+            <div class="counter_item d-inline-block mb-3">
+              <span class="counter fw-bold" id="count2">23</span>
+              <span class="fw-bold">K</span>
+            </div>
+            <h5>Downloads</h5>
+          </div>
+        </div>
+        <div class="col-6 col-sm-3 text-center single_counter">
+          <div class="counter_inner p-3 p-md-0">
+            <div class="counter_item d-inline-block mb-3">
+              <span class="counter fw-bold" id="count3">9</span>
+              <span class="fw-bold">M</span>
+            </div>
+            <h5>Customers</h5>
+          </div>
+        </div>
+        <div class="col-6 col-sm-3 text-center single_counter">
+          <div class="counter_inner p-3 p-md-0">
+            <div class="counter_item d-inline-block mb-3">
+              <span class="counter fw-bold" id="count4">12</span>
+              <span class="fw-bold">K</span>
+            </div>
+            <h5>Developers</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--=====================================Promo Section==============================================-->
+  <section class="promo-secton">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-7 col-md-8">
+          <div class="section-heading text-center">
+            <h2>Why do every peoples<br> <span>love App-Mobile?</span></h2>
+            <p>Mobile apps are designed to provide specific functions and services, and they might not be able to
+              provide the same level of functionality as a desktop application.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row mobile_px_20">
+        <div class="col-md-6 col-lg-4">
+          <div class="single_promo_hover text-center single_promo_1">
+            <div class="circle-icon">
+              <span class="ti-heart-broken text-white"></span>
+            </div>
+            <h5>Clean Design</h5>
+            <p>Good paragraphs begin with a topic sentence that briefly explains what the paragraph is about. </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="single_promo_hover text-center single_promo_1 ">
+            <div class="circle-icon">
+              <span class="ti-unlock text-white"></span>
+            </div>
+            <h5>Secure DAta</h5>
+            <p>Good paragraphs begin with a topic sentence that briefly explains what the paragraph is about. </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="single_promo_hover text-center single_promo_1">
+            <div class="circle-icon">
+              <span class="ti-panel text-white"></span>
+            </div>
+            <h5>Retina Ready</h5>
+            <p>Good paragraphs begin with a topic sentence that briefly explains what the paragraph is about. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--=====================================Features Section============================================-->
+  <section id="feature">
+    <div class="title">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-5 offset-md-1">
+            <div class="features-middle">
+              <h2 class="text-white">Our Sepecial Features</h2>
+              <p class="text-white">There are four essential elements that an effective paragraph should consistently
+                contain: unity, coherence, a topic sentence, and sufficient development. In order for a paragraph to
+                maintain a sense of unity, the paragraph must focus solely on a single idea, point, or argument that is
+                being discussed.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="feature-img">
+              <img src="images/service-1.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid margin_top_up ipad_px_30">
+      <div class="row">
+        <div class="col-sm-12 col-lg-10 offset-lg-1">
+          <div class="row">
+            <!--------Single feature-->
+            <div class="col-sm-6 col-lg-4">
+              <div class="single_feature">
+                <h4>Beautiful Desing</h4>
+                <p>Beauty is so important in design, because it's only if we craft truly beautiful experiences that we
+                  can forge a genuine value for users, starting with making this gut feeling positive. </p>
+                <div class="feature_icon">
+                  <i class="fas fa-air-freshener"></i>
+                </div>
+              </div>
+            </div>
+            <!--------Single feature-->
+            <div class="col-sm-6 col-lg-4">
+              <div class="single_feature">
+                <h4>Pure and Simple</h4>
+                <p>Beauty is so important in design, because it's only if we craft truly beautiful experiences that we
+                  can forge a genuine value for users, starting with making this gut feeling positive. </p>
+                <div class="feature_icon">
+                  <i class="fas fa-anchor"></i>
+                </div>
+              </div>
+            </div>
+            <!--------Single feature-->
+            <div class="col-sm-6 col-lg-4">
+              <div class="single_feature">
+                <h4>Wow Animation</h4>
+                <p>Beauty is so important in design, because it's only if we craft truly beautiful experiences that we
+                  can forge a genuine value for users, starting with making this gut feeling positive. </p>
+                <div class="feature_icon">
+                  <i class="fa fa-bell-slash"></i>
+                </div>
+              </div>
+            </div>
+            <!--------Single feature-->
+            <div class="col-sm-6 col-lg-4">
+              <div class="single_feature">
+                <h4>Exellent Eveything</h4>
+                <p>Beauty is so important in design, because it's only if we craft truly beautiful experiences that we
+                  can forge a genuine value for users, starting with making this gut feeling positive. </p>
+                <div class="feature_icon">
+                  <i class="fa fa-cloud-download-alt"></i>
+                </div>
+              </div>
+            </div>
+            <!--------Single feature-->
+            <div class="col-sm-6 col-lg-4">
+              <div class="single_feature">
+                <h4>Easy to customize</h4>
+                <p>Beauty is so important in design, because it's only if we craft truly beautiful experiences that we
+                  can forge a genuine value for users, starting with making this gut feeling positive. </p>
+                <div class="feature_icon">
+                  <i class="fas fa-atom"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <div class="single_feature">
+                <h4>Customers</h4>
+                <p>Beauty is so important in design, because it's only if we craft truly beautiful experiences that we
+                  can forge a genuine value for users, starting with making this gut feeling positive. </p>
+                <div class="feature_icon">
+                  <i class="fas fa-atom"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--=====================================Screen Section============================================
+  <section id="screen " class="ptb_100">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <div class="sec-heading test text-center mb-5">
+          <h2 class="section-title text-black">App Screenshot</h2>
+          <p class="sec-sub-title">Mobile apps are designed to provide specific functions and services, and they might not be able to provide the same level of functionality as a desktop application.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="swiper-container app-screen">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="slider-image">
+          <img src="images/screenshots/1.jpg" alt="">
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="slider-image">
+          <img src="images/screenshots/2.jpg" alt="">
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="slider-image">
+          <img src="images/screenshots/3.jpg" alt="">
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="slider-image">
+          <img src="images/screenshots/4.jpg" alt="">
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="slider-image">
+          <img src="images/screenshots/5.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+  
+</section>-->
+ 
+
+  <!--=====================================Pricing Section============================================-->
+  <section id="pricing " class="ptb_100">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <div class="sec-heading text-center">
+            <h2>Approdable Package</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quod dolorum! Aut placeat vitae, mollitia
+              hic alias distinctio itaque in quod sit quidem expedita obcaecati quo nulla sequi tempora aliquid?</p>
+          </div>
+        </div>
+      </div>
+      <div class="row mobile_px_20 pt-5">
+        <div class="col-md-6 col-lg-3">
+          <div class="single_price">
+            <div class="month">
+              Month
+            </div>
+            <h5>Premium</h5>
+            <div class="icon_pad">
+              <div class="icon_circle">
+                <span class="ti-medall"></span>
+              </div>
+            </div>
+            <div class="dollar">
+              <h2>
+                <span class="doler-sine">$</span>35
+              </h2>
+            </div>
+            <ul>
+              <br>
+              <li>5GB Linux Webstore</li>
+              <li>5 MySQL Database</li>
+              <li>24/7 Tech Support</li>
+              <li>Daily Backups</li>
+            </ul>
+            <a href="#" class="btn btn-bordered mt-4">Learn More</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="single_price">
+            <div class="month">
+              Month
+            </div>
+            <h5>Basic</h5>
+            <div class="icon_pad">
+              <div class="icon_circle">
+                <span class="ti-clipboard"></span>
+              </div>
+            </div>
+            <div class="dollar">
+              <h2>
+                <span class="doler-sine">$</span>55
+              </h2>
+            </div>
+            <ul>
+              <br>
+              <li>5GB Linux Webstore</li>
+              <li>5 MySQL Database</li>
+              <li>24/7 Tech Support</li>
+              <li>Daily Backups</li>
+            </ul>
+            <a href="#" class="btn btn-bordered mt-4">Learn More</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="single_price active_price">
+            <div class="month">
+              Month
+            </div>
+            <h5>Addict</h5>
+            <div class="icon_pad">
+              <div class="icon_circle">
+                <span class="ti-crown"></span>
+              </div>
+            </div>
+            <div class="dollar">
+              <h2>
+                <span class="doler-sine">$</span>45
+              </h2>
+            </div>
+            <ul>
+              <br>
+              <li>5GB Linux Webstore</li>
+              <li>5 MySQL Database</li>
+              <li>24/7 Tech Support</li>
+              <li>Daily Backups</li>
+            </ul>
+            <a href="#" class="btn btn-bordered mt-4">Learn More</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="single_price">
+            <div class="month">
+              Month
+            </div>
+            <h5>Business</h5>
+            <div class="icon_pad">
+              <div class="icon_circle">
+                <span class="ti-gift"></span>
+              </div>
+            </div>
+            <div class="dollar">
+              <h2>
+                <span class="doler-sine">$</span>85
+              </h2>
+            </div>
+            <ul>
+              <br>
+              <li>5GB Linux Webstore</li>
+              <li>5 MySQL Database</li>
+              <li>24/7 Tech Support</li>
+              <li>Daily Backups</li>
+            </ul>
+            <a href="#" class="btn btn-bordered mt-4">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--=====================================contact Section============================================-->
+  <section id="contacts">
+    <div class="contact ptb_100">
+      <div class="container">
+        <div class="mb-5 text-center">
+          <h5>Lets Start a Conversation</h5>
+          <h2 class="fw-bold text-black">Contact Us</h2>
+        </div>
+      </div>
+      <div class="mobile_px_20">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-md-5">
+              <h4 class="fw-bold">Contact Info</h4>
+              <ul class="info list-unstyled">
+                <li class="d-flex align-item-center">
+                  <span class="pe-3 fs-5 ti-location-pin"></span>
+                  <p><a href="">Lorem ipsum dolor M/34 consectetur officiis.</a></p>
+                </li>
+                <li class="d-flex align-item-center">
+                  <span class="pe-3 fs-5 ti-mobile"></span>
+                  <p><a href="">+92 999-456-321.</a></p>
+                </li>
+                <li class="d-flex align-item-center">
+                  <span class="pe-3 fs-5 ti-envelope"></span>
+                  <p><a href="">Info@coneshot.in .</a></p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-7 col-md-7 pt-lg-0 pt-md-0 pt-4">
+              <form>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Your Name">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="email" class="form-control" placeholder="Email Address">
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <textarea class="textarea" cols="30" rows="4" placeholder="Enter Your Message"></textarea>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <button class="btn "><span class="ti-rocket pe-2 fs-5">Send Message</span></button>
+                  </div>
+                </div>
+
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--=====================================footer Section============================================-->
+<footer>
+  <div class="copyright p-3">
+    <div class="container">
+      <div class="row align-item-center">
+        <div class="col-12 col-lg-6 p-3 text-center text-lg-end mob-pb-0">
+          <p class="text-white">Copy right © 2024 <a href="">HAMNA  </a>All rights are reserved</p>
+        </div>
+        <div class="col-12 col-lg-6 p-3 text-center text-lg-end mob-pt-0">
+        <p class="text-white">Desinged by <a href="#" target="_blank"> HAMNA</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!---------Scroll top icon-->
+<div id="scrollUp" title="Scroll To Up">
+<a href="#home"><span class="ti-arrow-up fs-4 text-white"></span></a>
+</div>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
 </body>
+
 </html>
